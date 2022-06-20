@@ -1,0 +1,26 @@
+Roll No.: CS20BTECH11061
+Name: Shashank Shanbhag
+
+--------------------------------------------------------------------------------
+
+P1: Chess
+---------
+Assumptions / Comments (if any):
+	
+# Is the program complete? Are there any assumptions made? Any other comments?
+The program is complete. No assumptions are made.
+
+Approach :
+# How do you solve this problem?
+I solved the problem by using 2D array simply. First I initialized the array with starting configuration of chess board. Then I used various regular expressions to represent every possible move in chess with given constraints.
+
+P2: Calculator
+--------------
+Assumptions / Comments (if any):
+	
+# Is the program complete? Are there any assumptions made? Any other comments?
+The program is complete. I have assumed that input of type integer will be a valid identifier which will be in the format : "identifier: int" ,i.e, there is a whitespace between : and int. I have also assumed that when we are calling to readInt method in the Input file, it will be given in the following format : "identifier = readInt",i.e, there is whitespace between identifier and = , also a whitespace between = and readInt.
+
+Approach :
+# How do you solve this problem?
+I solved the problem by using regular expressions and lex grammar symbol specifications to represent every possible line in the Input file. I also used some functions like strlen, strcat, strtok, etc. to get output in required format. I have also taken care of indentation so that it produces a well-indented C program as the output which makes it more readable and presentable.
