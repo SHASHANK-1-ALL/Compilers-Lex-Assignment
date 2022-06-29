@@ -1,16 +1,20 @@
 # This specification uses three 7-segment displays in series
 # Display value of PI=3.14
 INIT
+input: int
+input = readInt
 Select: 1
 #   a   b   c   d   e   f   g   dp
 #Display 3 followed by decimal point
     1   1   1   1   0   0   1   1
 Delay: 40
 Select: 2
+if input == 1:
+#   a   b   c   d   e   f   g   dp
 #Display 1
     0   1   1   0   0   0   0   0
-Delay: 40
-Select: 3
+Else:
+#   a   b   c   d   e   f   g   dp
 #Display 4
     0   1   1   0   0   1   1   0
 Delay: 40
