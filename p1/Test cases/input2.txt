@@ -1,0 +1,4 @@
+a2-a3 b7-b5
+Ng1-f3 b5-b4
+a3xb4 Nb8-c6
+Ra1xa7 Ra8xa7
